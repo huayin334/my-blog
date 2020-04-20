@@ -83,8 +83,8 @@ module.exports = {
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://vuepress-theme-reco.recoluan.com"
       } ,    {
-        "title": "fanzheming",
-        "desc": "技术博客",
+        "title": "RainyDay",
+        "desc": "大佬的技术博客",
         // "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://fanzheming.github.io/Blog/"
       }
@@ -101,5 +101,18 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  "plugins": [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp) => {
+          // 不要忘了安装 moment
+          const moment = require('moment')
+          moment.locale('zh-CN')
+          return moment(timestamp).format('llll')
+        }
+      }
+    ]
+  ]
 }
