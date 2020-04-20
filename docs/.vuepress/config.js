@@ -1,8 +1,8 @@
 module.exports = {
-  "title": "blog",
+  "title": "花音的学习笔记和随笔",
   "description": "",
-  "base":"/dist/",
-  "dest": "public",
+  "base":"/my-blog/",
+  "dest": "my-blog",
   "head": [
     [
       "link",
@@ -23,17 +23,17 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "首页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Contact",
+        "text": "联系我",
         "icon": "reco-message",
         "items": [
           {
@@ -73,11 +73,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "类别"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签分类"
       }
     },
     "friendLink": [
@@ -98,11 +98,11 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
-    "lastUpdated": "Last Updated",
+    "lastUpdated": "更新时间",
     "author": "huayin",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2020"
   },
   "markdown": {
     "lineNumbers": true
