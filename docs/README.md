@@ -9,8 +9,10 @@ home: true
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
+bgImage: '/timg.jpeg'
 bgImageStyle: {
-  height: '450px'
+  height: '250px',
+  size:contain
 }
 isShowTitleInHome: false
 actionText: Guide

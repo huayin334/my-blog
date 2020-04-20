@@ -1,8 +1,9 @@
 module.exports = {
-  "title": "花音的学习笔记和随笔",
-  "description": "",
+  "title": "花音的个人随笔",
+  "description": "生活明朗，万物可爱。人间值得，未来可期。",
   "base":"/my-blog/",
   "dest": "my-blog",
+  "sidebarDepth": 2,
   "head": [
     [
       "link",
@@ -21,6 +22,11 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "themePicker": {
+      "colorName1": 'red',
+      "colorName2": 'yellow',
+      "colorName3": 'blue'
+    },
     "nav": [
       {
         "text": "首页",
@@ -37,34 +43,14 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "NPM",
-            "link": "https://www.npmjs.com/~reco_luan",
-            "icon": "reco-npm"
-          },
-          {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/huayin334",
             "icon": "reco-github"
-          },
-          {
-            "text": "简书",
-            "link": "https://www.jianshu.com/u/cd674a19515e",
-            "icon": "reco-jianshu"
           },
           {
             "text": "CSDN",
             "link": "https://blog.csdn.net/recoluan",
             "icon": "reco-csdn"
-          },
-          {
-            "text": "博客圆",
-            "link": "https://www.cnblogs.com/luanhewei/",
-            "icon": "reco-bokeyuan"
-          },
-          {
-            "text": "WeChat",
-            "link": "https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A",
-            "icon": "reco-wechat"
           }
         ]
       }
