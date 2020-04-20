@@ -22,6 +22,10 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "valineConfig": {
+      "appId": 'MsFS9G9cxBH2yjQrUi0LDM6F-gzGzoHsz',// your appId
+      "appKey": 'OWxqEQTdqkjxvVeD7ejQgan6', // your appKey
+    },
     "themePicker": {
       "colorName1": 'red',
       "colorName2": 'yellow',
@@ -78,6 +82,11 @@ module.exports = {
         "desc": "A simple and beautiful vuepress Blog & Doc theme.",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://vuepress-theme-reco.recoluan.com"
+      } ,    {
+        "title": "fanzheming",
+        "desc": "技术博客",
+        // "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        "link": "https://fanzheming.github.io/Blog/"
       }
     ],
     "logo": "/logo.png",
