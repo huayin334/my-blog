@@ -1,5 +1,5 @@
 ---
-title: 文章标题
+title: vue双向数据绑定
 date: 2020-04-24 09:49:00
 tags:
  - vue
