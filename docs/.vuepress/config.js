@@ -110,7 +110,7 @@ module.exports = {
           // 不要忘了安装 moment
           const moment = require('moment')
           moment.locale('zh-CN')
-          return moment(timestamp).add('hours',8).format('llll')
+          return moment(timestamp).format('llll')
         }
       }
     ]
